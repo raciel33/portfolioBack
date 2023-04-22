@@ -6,13 +6,15 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use(cors());
+app.use(express.static('public'));
+
 
 app.post('/formulario', (req, res) => {
     configMensaje(req.body);
     res.status(200).send();
 })
 
-app.use(express.static(path.join(__dirname, '/public')));
+//app.use(express.static(path.join(__dirname, '/public')));
 
 //si no es ninguna de las rutas anteriores coje el index.html
 app.get('*', (req, resp) => {
