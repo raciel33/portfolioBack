@@ -2,11 +2,20 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const configMensaje = require('./configMensaje');
+const { dbConnection } = require('./database/config');
+const path = require('path'); //predefindo de express
+
+
 const app = express();
-app.use(bodyParser.json());
 
 app.use(cors());
+
 app.use(express.static('public'));
+
+app.use(bodyParser.json());
+
+//dbConnection();
+
 
 
 app.post('/formulario', (req, res) => {
@@ -14,7 +23,7 @@ app.post('/formulario', (req, res) => {
     res.status(200).send();
 })
 
-//app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(path.join(__dirname, '/public')));
 
 //si no es ninguna de las rutas anteriores coje el index.html
 app.get('*', (req, resp) => {
