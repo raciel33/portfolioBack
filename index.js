@@ -23,8 +23,10 @@ dbConnection();
 
 
 
-app.use('/contacto', require('./routes/contacto'));
-
+app.post('/formulario', (req, res) => {
+    configMensaje(req.body);
+    res.status(200).send();
+})
 
 app.use(express.static(path.join(__dirname, '/public')));
 

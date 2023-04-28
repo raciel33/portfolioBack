@@ -10,14 +10,7 @@ const router = Router();
 
 
 
-router.post('/', [
-    check('nombre', 'el nombre es obligatorio').not().isEmpty(),
-    check('email', 'el correo es obligatorio').isEmail(),
-    check('mensaje', 'debe introducir un mensaje').not().isEmpty(),
-    validarCampos
-
-
-], (req, res) => {
+router.post('/', (req, res) => {
     configMensaje(req.body);
     res.status(200).send();
 })
