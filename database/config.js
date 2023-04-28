@@ -8,7 +8,7 @@ const dbConnection = async() => {
         validateDatabaseName(databaseName) poner la const invalidChars = [' ', '.', '$', '\\'] de esta forma porque 
         tenia // y daba fallo 
         */
-        ;
+
         await mongoose.connect(process.env.DB_CNN); //esta definido en este archivo ('/env)
         console.log("db online");
 

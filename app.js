@@ -1,9 +1,13 @@
+require('dotenv').config();
+const path = require('path'); //predefindo de express
+
 const express = require('express');
 const cors = require('cors');
+
 const bodyParser = require('body-parser');
 const configMensaje = require('./configMensaje');
+
 const { dbConnection } = require('./database/config');
-const path = require('path'); //predefindo de express
 
 
 const app = express();
@@ -12,9 +16,9 @@ app.use(cors());
 
 app.use(express.static('public'));
 
-app.use(bodyParser.json());
+app.use(express.json());
 
-//dbConnection();
+dbConnection();
 
 
 
