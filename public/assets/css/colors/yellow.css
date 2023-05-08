@@ -1,0 +1,85 @@
+nav {
+    background: rgb(238, 226, 6);
+}
+
+#nav {
+    color: black;
+}
+
+html {
+    background: rgb(238, 226, 6);
+}
+
+#card1 {
+    background: rgb(68, 67, 38);
+    color: white;
+}
+
+#nombre {
+    color: rgb(238, 226, 6);
+}
+
+#themesComponent {
+    background: rgb(68, 67, 38);
+}
+
+#body,
+#home,
+#card2,
+#card3,
+#card4,
+#card5,
+#card6,
+#cardContacto,
+#cardAboutme1,
+#cardAboutme2 {
+    color: black;
+    background: rgb(238, 226, 6);
+}
+
+#card7 {
+    background: rgb(68, 67, 38);
+    color: rgb(238, 226, 6);
+}
+
+#foto {
+    border: 2px solid rgb(238, 226, 6);
+    ;
+}
+
+#logo {
+    border: 2px solid rgb(68, 67, 38);
+    ;
+}
+
+#technicalSkills,
+#softSkills,
+#frontendHelth,
+#backHealth,
+#frontendBarometro,
+#backBarometro,
+#frontendControlJobs,
+#backControlJobs,
+#misProyectosText,
+#protyectoDescription,
+#textContact {
+    color: rgb(68, 67, 38);
+    font-weight: bold;
+}
+
+#button1 {
+    background: rgb(68, 67, 38);
+    color: rgb(238, 226, 6);
+    ;
+}
+
+#contact {
+    box-shadow: 2px 5px 10px 1px rgb(68, 67, 38);
+    ;
+    ;
+}
+
+footer {
+    background: rgb(68, 67, 38);
+    color: rgb(238, 226, 6);
+}

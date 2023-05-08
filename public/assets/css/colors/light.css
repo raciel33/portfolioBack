@@ -1,0 +1,61 @@
+nav {
+    color: rgb(24, 23, 23);
+    background: #233343ea;
+}
+
+html {
+    background: #f8f6f6;
+}
+
+#themesComponent {
+    background: #e0e7eeea;
+}
+
+#icon {
+    filter: hue-rotate(120deg)brightness(500%);
+}
+
+#body,
+#home,
+#card1,
+#card2,
+#card3,
+#card4,
+#card5,
+#card6,
+#card7,
+#cardContacto,
+#cardAboutme1,
+#cardAboutme2 {
+    color: rgb(24, 23, 23);
+    background: #f8f6f6;
+}
+
+#foto,
+#logo {
+    border: 2px solid rgb(24, 23, 23);
+}
+
+#nombre,
+#technicalSkills,
+#softSkills {
+    color: rgb(24, 23, 23);
+}
+
+#frontendHelth,
+#backHealth,
+#frontendBarometro,
+#backBarometro,
+#frontendControlJobs,
+#backControlJobs {
+    font-weight: bold;
+}
+
+#button1 {
+    background: rgb(111, 132, 237);
+}
+
+footer {
+    background: rgb(58, 55, 55);
+    color: white;
+}

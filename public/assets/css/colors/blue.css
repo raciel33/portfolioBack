@@ -1,0 +1,73 @@
+nav {
+    background: rgb(5, 46, 181);
+}
+
+html {
+    background: white
+}
+
+#themesComponent {
+    background: rgb(5, 46, 181);
+}
+
+#body,
+#card1,
+#home {
+    color: rgb(5, 46, 181);
+    background: white
+}
+
+#icon {
+    filter: hue-rotate(120deg)brightness(500%);
+}
+
+#card2,
+#card3,
+#card4,
+#card7,
+#cardContacto {
+    background: rgb(5, 46, 181);
+    color: white
+}
+
+#foto,
+#logo {
+    border: 2px solid rgb(5, 46, 181);
+}
+
+#nombre,
+#technicalSkills,
+#softSkills,
+#misProyectosText,
+#protyectoDescription {
+    color: rgb(5, 46, 181)
+}
+
+#frontendHelth,
+#backHealth,
+#frontendBarometro,
+#backBarometro,
+#frontendControlJobs,
+#backControlJobs,
+#technicalSkills,
+#softSkills {
+    font-weight: bold;
+}
+
+#textContact {
+    color: white;
+}
+
+#button1 {
+    background: rgb(215, 219, 234)
+}
+
+#contact {
+    box-shadow: 2px 5px 10px 1px rgb(5, 46, 181);
+    ;
+}
+
+footer {
+    background: rgb(5, 46, 181);
+    color: white;
+}

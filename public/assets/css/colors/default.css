@@ -1,0 +1,62 @@
+nav {
+    background: rgb(32, 30, 30);
+}
+
+html {
+    background: rgb(32, 30, 30);
+}
+
+#body,
+#themesComponent,
+#home,
+#card1,
+#card2,
+#card3,
+#card4,
+#card5,
+#card6,
+#card7,
+#cardContacto,
+#cardAboutme1,
+#cardAboutme2 {
+    color: white;
+    background: rgb(32, 30, 30);
+}
+
+#foto,
+#logo {
+    border: 2px solid rgba(8, 219, 238, 0.988);
+    ;
+}
+
+#nombre,
+#technicalSkills,
+#softSkills,
+#frontendHelth,
+#backHealth,
+#frontendBarometro,
+#backBarometro,
+#frontendControlJobs,
+#backControlJobs,
+#misProyectosText,
+#protyectoDescription,
+#textContact {
+    color: rgba(8, 219, 238, 0.988);
+}
+
+#icon {
+    filter: hue-rotate(120deg)brightness(500%);
+}
+
+#button1 {
+    background: rgba(8, 219, 238, 0.988);
+}
+
+#contact {
+    box-shadow: 2px 5px 10px 1px rgba(8, 219, 238, 0.988);
+    ;
+}
+
+footer {
+    background: rgb(58, 55, 55);
+}
