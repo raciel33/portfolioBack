@@ -19,7 +19,7 @@ env:
 jobs:
 # Please do not rename this job
   build-project:
-    name: build portfolioBack
+    name: build portfolio
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -48,5 +48,5 @@ jobs:
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
-          config-file: .deploy-now/portfolioBack/config.yaml
+          config-file: .deploy-now/portfolio/config.yaml
           action: upload
