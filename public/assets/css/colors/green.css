@@ -27,7 +27,8 @@ html {
 #card7,
 #cardContacto,
 #cardAboutme1,
-#cardAboutme2 {
+#cardAboutme2,
+#cardNotes {
     color: white;
     background: rgb(32, 30, 30);
 }
@@ -48,8 +49,10 @@ html {
 #frontendControlJobs,
 #backControlJobs,
 #misProyectosText,
+#notes,
 #protyectoDescription,
-#textContact {
+#textContact,
+#textNotes {
     color: rgb(69, 254, 2);
     ;
 }

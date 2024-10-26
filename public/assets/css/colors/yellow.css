@@ -32,7 +32,8 @@ html {
 #card6,
 #cardContacto,
 #cardAboutme1,
-#cardAboutme2 {
+#cardAboutme2,
+#cardNotes {
     color: black;
     background: rgb(238, 226, 6);
 }
@@ -61,8 +62,10 @@ html {
 #frontendControlJobs,
 #backControlJobs,
 #misProyectosText,
+#notes,
 #protyectoDescription,
-#textContact {
+#textContact,
+#textNotes {
     color: rgb(68, 67, 38);
     font-weight: bold;
 }

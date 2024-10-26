@@ -26,7 +26,8 @@ html {
 #card7,
 #cardContacto,
 #cardAboutme1,
-#cardAboutme2 {
+#cardAboutme2,
+#cardNotes {
     color: rgb(24, 23, 23);
     background: #f8f6f6;
 }

@@ -18,7 +18,8 @@ html {
 #card7,
 #cardContacto,
 #cardAboutme1,
-#cardAboutme2 {
+#cardAboutme2,
+#cardNotes {
     color: white;
     background: rgb(32, 30, 30);
 }
@@ -40,7 +41,8 @@ html {
 #backControlJobs,
 #misProyectosText,
 #protyectoDescription,
-#textContact {
+#textContact,
+#textNotes {
     color: rgba(8, 219, 238, 0.988);
 }
 
