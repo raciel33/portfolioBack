@@ -20,8 +20,11 @@ app.use(express.json());
 
 dbConnection();
 
+//referencias al archivo de rutas
+var usuario_routes = require('./routes/usuario')
 
-
+//estableciendo rutas
+app.use('/api', usuario_routes);
 
 app.post('/formulario', (req, res) => {
     configMensaje(req.body);
